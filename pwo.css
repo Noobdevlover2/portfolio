@@ -1,0 +1,127 @@
+body{
+  margin:0;
+  padding:0;
+  background:#FFD5AA;
+}
+
+.header{
+
+}
+.headernav{
+padding:5px;
+}
+.header img{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+border:1px solid white;
+margin-left:30px;
+}
+
+ul{
+  margin-top:5px;
+  margin-right:30px;
+  padding:0;
+  list-style-type:none;
+  overflow:hidden;
+  float:right;
+}
+ul li{
+  float:left;
+}
+ul li a{
+  text-decoration: none;
+  color:black;
+  font-size:1.2rem;
+  padding:12px;
+}
+ul li a:hover{
+  text-decoration: underline;
+  font-size:1.4rem;
+  transition:.5s;
+}
+.biosection{
+  margin-left: 30px;
+  line-height:2rem;
+  margin-top: 10%;
+
+  font-weight: bold;
+
+}
+p{
+font-size: 1.2rem;
+}
+.name{
+font-size: 50px;
+}
+
+.commonbutton{
+  background: transparent;
+  border:2px solid black;
+  padding:8px;
+  border-radius:8px;
+  cursor:pointer;
+  font-family: arial;
+}
+
+.commonbutton:hover{
+  background: black;
+  color:#FFD5AA;
+  transition:.5s;
+}
+.forpic{
+  width:40%;
+  float:right;
+}
+.forpic img{
+  width:200px;
+  height: 300px;
+  border-radius:0;
+margin-top: -40%;
+
+}
+
+.mywork{
+  background: #FFA74F;
+
+  display:flex;
+justify-content: space-around;
+}
+.div-clear{
+  clear:both;
+}
+h2{
+    margin-left: 30px;
+    width:20%;
+}
+
+.google{
+  border-radius:8px;
+  padding:2px 8px;
+    margin-left: 30px;
+  background: #fffdd0;
+  width:40%;
+  margin-top:15px;
+margin-bottom:15px;
+}
+.fb{
+  border-radius:8px;
+  padding:2px 8px;
+    margin-left: 30px;
+  background: #fffdd0;
+  width:40%;
+  margin-top:15px;
+margin-bottom:15px;
+    margin-right:30px;
+}
+.mediaicon{
+  background:brown;
+  text-align: center;
+  font-size: 20px;
+  padding:9px;
+  margin-top: 6px;
+}
+.icons i{
+  margin:5px;
+  font-size: 20px;
+}
